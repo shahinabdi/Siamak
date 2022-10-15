@@ -74,3 +74,6 @@ def user_info(**user):
 user = user_info(id=1, fname="Shahin", lname="ABDI", age=30)
 if user["id"] == 1:
     print(user["fname"])
+
+
+user2 = user_info(id=2, fname="Siamak", lname="RAZAVI", age=37)
